@@ -31,8 +31,6 @@ foreach ($ageList as $key => $val){
 }
 
 // Q3 オブジェクト-1
-<?php
-
 class Student
 {
     public $studentId;
@@ -55,8 +53,6 @@ $Yamada->attend();
 
 
 // Q4 オブジェクト-2
-<?php
-
 class Student
 {
     public $studentId;
@@ -79,15 +75,13 @@ $Yamada->attend('php');
 
 // Q5 定義済みクラス
 //問題2
-<?php
 
 $Onemonthago = new DateTime();
 $Onemonthago->modify('-1 month');
 echo $Onemonthago->format('Y-m-d');
-?>
+
 
 //問題2
-<?php
 
 $today = new DateTime();
 $day = new DateTime('1992-04-25');
