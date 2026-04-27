@@ -4,13 +4,13 @@ echo '1から100までのカウントを開始します'."\n";
 
 for ($i = 1; $i <= 100; $i++) {
     echo "\n";
-  if ($i%4===0 AND $i%5===0){
+  if ($i % 4 === 0 AND $i % 5 === 0){
     echo'tic-tac';
   }
-  elseif($i%5===0) {
+  elseif($i % 5 === 0) {
     echo'tac';
   }
-  elseif($i%4===0) {
+  elseif($i % 4 === 0) {
     echo 'tic';
   }
   else{
